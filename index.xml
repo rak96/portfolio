@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning Portfolio on Rakesh Ramesh</title>
+    <link>https://rak96.github.io/portfolio/</link>
+    <description>Recent content in Machine Learning Portfolio on Rakesh Ramesh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jul 2021 10:58:08 -0400</lastBuildDate>
+    
+	<atom:link href="https://rak96.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autonomous Car- Reinforcement Learning</title>
+      <link>https://rak96.github.io/portfolio/post/project-5-copy/</link>
+      <pubDate>Mon, 12 Jul 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://rak96.github.io/portfolio/post/project-5-copy/</guid>
+      <description>Used a simulation environment called CARLA, used virtual RGB camera and Collison sensor to train the car. Since we are using DQN (Deep Q Learning), we’ll be using a model to infer the Q values instead of a table. Replay Memory - When training the network, random minibatches from the replay memory are used instead of the most recent transition. This breaks the similarity of subsequent training samples, which otherwise might drive the network into a local minimum.</description>
+    </item>
+    
+    <item>
+      <title>Point Cloud 3D Classification</title>
+      <link>https://rak96.github.io/portfolio/post/project-3/</link>
+      <pubDate>Sat, 12 Jun 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://rak96.github.io/portfolio/post/project-3/</guid>
+      <description>Used ModelNet10 data set, which has 10 different classes of objects. Used trimesh package for the visualization, used data augmentation for better training. Created PointNet arachitecture from scratch, primary MLP network, and the transformer net. The T-net aims to learn an affine transformation matrix by its own mini network. The T-net is used twice. The first time to transform the input features (n, 3) into a canonical representation.     Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Using DCGAN to generate faces</title>
+      <link>https://rak96.github.io/portfolio/post/project-4md/</link>
+      <pubDate>Sat, 12 Jun 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://rak96.github.io/portfolio/post/project-4md/</guid>
+      <description>Used Kaggle faces dataset to train a DCGAN model to generate face images. The discriminator accepts an image as its input and produces number that is the probability of the input image being real. The generator accepts a random seed vector and generates an image from that random vector seed. This code makes use of GradientTape to allow the discriminator and generator to be trained together, yet separately. While these faces are not perfect, they demonstrate how we can construct and train a GAN on or own     Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>Single Image Super Resolution</title>
+      <link>https://rak96.github.io/portfolio/post/project-2/</link>
+      <pubDate>Sun, 09 May 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://rak96.github.io/portfolio/post/project-2/</guid>
+      <description>Used COCO data set 2017. It is around 18GB having images of different dimensions. Preprocessing includes cropping images so that we can have same dimension images. Images with same width and height are preferred. I used images of size 384 for high resolution. For Low Res images, downscaled the high res images with down scale factor as 4. I used content loss for generator&amp;rsquo;s output, the content loss is the distance between the features of the base image extracted from a pre trained network and the features of the combination image, keeping the generated image close enough to the original one.</description>
+    </item>
+    
+    <item>
+      <title>Image Captioning</title>
+      <link>https://rak96.github.io/portfolio/post/project-1/</link>
+      <pubDate>Sat, 09 May 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://rak96.github.io/portfolio/post/project-1/</guid>
+      <description>Created a model which takes an image as input and provides caption for that image. Used the Flickr8k dataset, which has 8,000 photos and up to 5 captions for each photo. Engineered features from the pictures using pre-trained Inception Model with 2048 dense layers as output. Used the GloVe embeddings and built a custom network with two inputs, one from the image and the other for the words for the LSTM units.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://rak96.github.io/portfolio/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rak96.github.io/portfolio/contact/</guid>
+      <description>Follow me on these social media platforms.
+   Platform URL    LinkedIn: https://www.linkedin.com/in/rakesh-ramesh-02ab9a173/
+GitHub: https://github.com/rak96</description>
+    </item>
+    
+  </channel>
+</rss>
